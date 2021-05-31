@@ -1,0 +1,46 @@
+.text-main{
+  text-align: center;
+  padding: 15px 2px;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 100%;
+  margin: 100px 20px;
+  cursor: pointer;
+  width: 20%;
+  height:150px;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-view{
+  width: 100%;
+  height: 100%;
+  border: 3px solid green;
+}
+
+.header{
+  background-color: red;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+.mat-display-1{
+
+  margin: 2%;
+}

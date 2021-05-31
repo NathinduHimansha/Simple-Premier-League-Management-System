@@ -1,0 +1,44 @@
+
+<div class="center">
+  <table class="stac-table">
+    <thead>
+    <tr>
+      <th>Club Id</th>
+      <th>Club Name</th>
+      <th>Club Location</th>
+      <th>No of Points</th>
+      <th>No of Wins</th>
+      <th>No of Defeats</th>
+      <th>No of Draws</th>
+      <th>No of Goals Scored</th>
+      <th>No of Goals Received</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let club of sortedClubs">
+      <td>{{club.clubId}}</td>
+      <td>{{club.clubName}}</td>
+      <td>{{club.clubLocation}}</td>
+      <td>{{club.noOfPoints}}</td>
+      <td>{{club.noOfWins}}</td>
+      <td>{{club.noOfDefeats}}</td>
+      <td>{{club.noOfDraws}}</td>
+      <td>{{club.noOfGoalsScored}}</td>
+      <td>{{club.noOfGoalsReceived}}</td>
+    </tr>
+
+
+    </tbody>
+
+  </table>
+</div>
+
+<div class="bottom">
+  <button (click)="back()" mat-fab color="primary" aria-label="Example icon button with a menu icon">
+    BACK
+  </button>
+</div>
+
+
+
+
